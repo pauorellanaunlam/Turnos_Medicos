@@ -27,7 +27,7 @@
         <button class="tema-pagina">CLARO / OSCURO</button>
     </header>
 
-    <main>
+    <main class="pagina-usuario">
         <aside>
             <nav>
                 <a href="usuario.html">Inicio</a>
@@ -38,7 +38,7 @@
         </aside>
 
         <section class="home-usuario">
-            <div>
+            <div class="contenido-usuario">
                 <p>Bienvenido a la página de turnos médicos.</p>
                 <p>NOMBRE PACIENTE</p>
                 <p>DNI: 44 222 333</p>
@@ -47,26 +47,29 @@
             <div>
                 <a href="solicitarturnos.html"><button id="nuevoturno">Solicitar Turno</button></a>
             </div>
-        </section>
+            <section class="tarjetas-usuario">
 
-        <section>
-            <div class="cards">
-                <img src="https://">
-                <span>Mis turnos</span>
-                <p>Ver y cancelar turnos</p>
-            </div>
-            <div class="cards">
-                <img src="https://">
-                <span>Nuevo turno</span>
-                <p>Solicitar un nuevo turno</p>
-            </div>
-            <div class="cards">
-                <img src="https://">
-                <span>Mis datos</span>
-                <p>Ver y actualizar información personal</p>
-            </div>
+                <section class="tarjetas-usuario">
 
-        </section>
+                    <div class="cards" id="misturnos">
+                        <span>Mis turnos</span>
+                        <p>Consultá tus turnos médicos.</p>
+                        <a href="miperfil.html">Ver mis turnos</a>
+                    </div>
+
+                    <div class="cards">
+                        <span>Nuevo turno</span>
+                        <p>Solicitá un nuevo turno médico.</p>
+                        <a href="solicitarturnos.html">Solicitar turno</a>
+                    </div>
+
+                    <div class="cards">
+                        <span>Mis datos</span>
+                        <p>Consultá y actualizá tu información personal.</p>
+                        <a href="miperfil.html">Ver mi perfil</a>
+                    </div>
+
+                </section>
     </main>
 </body>
 
